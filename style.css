@@ -1,0 +1,439 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar{
+    position: fixed;
+}
+@media screen and (max-width: 1017px){
+    body{
+        margin-right: -100px;
+    }
+    .navbar{
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .navbar{
+        margin-left: 0px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 567px){
+    body{
+        width: auto;
+    }
+    .box{
+        width: 90%;
+    }
+    .navbar{
+        width: 90%;
+    }
+    #second{
+        width: 90%;
+    }
+    #hero{
+        width: 90%;
+    }
+    .hero-title{
+        font-size: 30px;
+        margin-top: 150px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .hero-subtitle{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 6px;
+    }
+}  
+
+@media screen and (max-width: 360px){
+    
+}
+
+/* hero section css is starting here */
+.hero-title{
+    font-size: 60px;
+    margin-top: 150px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hero-subtitle{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.hero-img{
+    margin-top: 40px;
+}
+#hero{
+    overflow: hidden;
+}
+
+@media screen and (max-width: 900px){
+    .hero-title{
+        font-size: 30px;
+        margin-top: 150px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .hero-subtitle{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 10px;
+    }
+
+    .hero-img{
+        margin-top: 70px;
+        margin-right: 150px;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .hero-img{
+        margin-top: 70px;
+        margin-right: 150px;
+        width: 500px;
+        display: none;
+    }
+
+    .hero-title{
+        font-size: 20px;
+        margin-top: 150px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .hero-subtitle{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .hero-img{
+        margin-top: 70px;
+        margin-right: 150px;
+        width: 500px;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .hero-img{
+        margin-top: 70px;
+        margin-right: 150px;
+        width: 500px;
+        display: none;
+    }
+
+    .hero-subtitle{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 15px;
+    }
+
+    .hero-title{
+        font-size: 50px;
+        margin-top: 150px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .hero-subtitle{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 12px;
+    }
+
+    .hero-title{
+        font-size: 35px;
+        margin-top: 150px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+/* hero section ending here */
+
+
+/* second section css starting here */
+    .second-img{
+        margin-left: -100px;
+        margin-top: 20px;
+    }
+
+    .second-title{
+        margin-top: 60px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 55px;
+    }
+
+    @media screen and (max-width: 900px){
+        .second-img{
+            margin-left: -100px;
+            width: 500px;
+        }
+
+        .second-title{
+            margin-top: 50px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+        }
+
+        .second-subtitle{
+            font-size: 10px;
+        }
+    }
+    
+    @media screen and (max-width: 360px){
+        .second-img{
+            margin-left: -100px;
+            width: 500px;
+            display: none;
+        }
+    }
+    
+    @media screen and (max-width: 400px){
+        .second-img{
+            margin-left: -100px;
+            width: 500px;
+            display: none;
+        }
+    }
+    
+    @media screen and (max-width: 767px){
+        .second-img{
+            margin-left: -100px;
+            width: 500px;
+            display: none;
+        }
+
+        .second-title{
+            margin-top: 50px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 35px;
+        }
+
+        .second-subtitle{
+            font-size: 12px;
+        }
+    }
+/* second secting ending here */
+
+
+/* third section css starting  */
+    .third-title{
+        font-size: 60px;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 50px 0px 0px 0px;
+    }
+    .box{
+        border: 10px solid green;
+        padding-bottom: 40px;
+    }
+    .third-img{
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+    @media screen and (max-width: 991px){
+        .third-title{
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            margin: 50px 0px 0px 0px;
+            margin-top: 60px;
+        }
+        .third-subtitle{
+            font-size: 10px;
+        }
+        .third-img{
+            width: 400px;
+            margin-top: 20px;
+        }
+        .navbar{
+            margin-left: 0px;
+        }
+    }
+    @media screen and (max-width: 900px){
+        .third-img{
+            margin-top: 40px;
+        }
+
+        .third-title{
+            font-size: 30px;
+            margin-top: 80px;
+        }
+    }
+    
+    @media screen and (max-width: 360px){
+        .third-img{
+            margin-top: 40px;
+            display: none;
+        }
+        .third-title{
+            font-size: 30px;
+            margin-top: 50px;
+        }
+    }
+    
+    @media screen and (max-width: 400px){
+        .third-img{
+            margin-top: 40px;
+            display: none;
+        }
+        .third-title{
+            font-size: 30px;
+            margin-top: 50px;
+        }
+    }
+    
+    @media screen and (max-width: 767px){
+        .third-img{
+            margin-top: 40px;
+            display: none;
+        }
+        .third-title{
+            font-size: 30px;
+            margin-top: 50px;
+        }
+        body{
+            margin-right: -100px;
+        }
+    }
+
+
+/* third section css ending here */
+
+/* fourth section starting here */
+        .fourth-title{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 50px;
+        }
+        .fourth-subtitle{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 15px;
+        }
+        .area1{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        @media screen and (max-width: 768px){
+            .card-title{
+                font-size: 20px;
+            }
+            .card-text{
+                font-size: 10px;
+            }
+            .area1{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .fourth-title{
+                font-size: 30px;
+            }
+            .fourth-subtitle{
+                font-size: 15px;
+            }
+            .card{
+                width: 15rem;
+            }
+        }
+
+        @media screen and (max-width: 576px){
+            .area1{
+                display: block;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .card{
+                margin-bottom: 20px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .card-title{
+                font-size: 20px;
+            }
+            .card-text{
+                font-size: 15px;
+            }
+        }
+/* fourth section ending here */
+
+/* fiveth section starting here */
+        .testimonial-box {
+            background-color: #00695c;
+            color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 300px;
+            font-family: Arial, sans-serif;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .testimonial-box p {
+            margin: 10px 0;
+        }
+
+        .author {
+            text-align: right;
+            font-weight: bold;
+        }
+        .testimonial-flex{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        @media screen and (max-width: 768px){
+
+            .testimonial-flex{
+                display: block;
+            }
+            .testimonial-box{
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 30px;
+            }
+        }
+/* fiveth section ending here */
+
+
+
+/* sixeth section starting here */
+        .sixeth-title{
+            font-family: 'Times New Roman', Times, serif;
+        }
+/* sixeth section ending here */
+
+
+/* footer section starting here */
+.footer {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .footer {
+        padding: 10px;
+    }
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .footer-links a {
+        font-size: 14px;
+    }
+    .footer-social {
+        justify-content: center; /* Center social icons on extra small screens */
+    }
+}
+
+/* Footer Content */
+       
+/* footer section ending here */
